@@ -10,12 +10,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="sortify-ai",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Dmytro Dziublenko",
+    author_email="d.dziublenko@gmail.com",
     description="AI-powered image organization and categorization tool using OpenAI Vision API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/sortify-ai",
+    url="https://github.com/d-dziublenko/sortify-ai",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -41,7 +41,7 @@ setup(
         ],
     },
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/sortify-ai/issues",
-        "Source": "https://github.com/yourusername/sortify-ai",
+        "Bug Reports": "https://github.com/d-dziublenko/sortify-ai/issues",
+        "Source": "https://github.com/d-dziublenko/sortify-ai",
     },
 )
